@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-monitorlogico",
+  "version": "1.0.0",
+  "description": "projeto de comunicacao serial com pic18f",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yperdoom/nodejs-monitorLogico.git"
+  },
+  "keywords": [
+    "pic18f",
+    "nodejs",
+    "pic18f4520"
+  ],
+  "author": "yperdoom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yperdoom/nodejs-monitorLogico/issues"
+  },
+  "homepage": "https://github.com/yperdoom/nodejs-monitorLogico#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.9.0",
+    "serialport": "^9.2.5"
+  }
+}
